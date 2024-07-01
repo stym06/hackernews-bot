@@ -1,4 +1,4 @@
-# Random Hacker News Story Fetcher
+# HackerNews Random
 [![Go](https://github.com/stym06/hackernews-bot/actions/workflows/go.yml/badge.svg)](https://github.com/stym06/hackernews-bot/actions/workflows/go.yml)
 
 <img src="https://images.pexels.com/photos/97050/pexels-photo-97050.jpeg" width="550" height="550">
