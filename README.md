@@ -1,5 +1,11 @@
 # HackerNews Random
 [![Go](https://github.com/stym06/hackernews-bot/actions/workflows/go.yml/badge.svg)](https://github.com/stym06/hackernews-bot/actions/workflows/go.yml)
+![License](https://img.shields.io/github/license/stym06/hackernews-bot?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/stym06/hackernews-bot?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/stym06/hackernews-bot?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/stym06/hackernews-bot?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/stym06/hackernews-bot?style=flat-square)
+![Language](https://img.shields.io/github/languages/top/stym06/hackernews-bot?style=flat-square)
 
 <img src="https://images.pexels.com/photos/97050/pexels-photo-97050.jpeg" width="550" height="550">
 
