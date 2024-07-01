@@ -54,6 +54,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	
 	var topStories []int64
 	err = json.Unmarshal(body, &topStories)
 	if err != nil {
