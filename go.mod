@@ -1,6 +1,6 @@
 module github.com/stym06/hackernews-bot
 
-go 1.23
+go 1.20
 
 require (
 	github.com/fatih/color v1.17.0 // indirect
