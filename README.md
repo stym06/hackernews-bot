@@ -1,3 +1,4 @@
+![Hacker News Logo](https://images.pexels.com/photos/97050/pexels-photo-97050.jpeg)
 # Random Hacker News Story Fetcher
 
 This Go script fetches the top stories from Hacker News, selects a random story, and opens Chrome with the url
