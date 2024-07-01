@@ -1,4 +1,5 @@
-<img src="https://images.pexels.com/photos/97050/pexels-photo-97050.jpeg" width="550" height="250">
+<img src="https://images.pexels.com/photos/97050/pexels-photo-97050.jpeg" width="550" height="550">
+
 # Random Hacker News Story Fetcher
 
 This Go script fetches the top stories from Hacker News, selects a random story, and opens Chrome with the url
