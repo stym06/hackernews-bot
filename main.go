@@ -7,6 +7,7 @@ import (
 	"log"
 	"math/rand"
 	"net/http"
+	"os"
 	"os/exec"
 	"runtime"
 	"time"
@@ -39,8 +40,10 @@ func openbrowser(url string) {
 }
 
 func main() {
+	arg := os.Args[1]
+
 	rand.Seed(time.Now().UnixNano())
-	topStoriesUrl := "https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty"
+	topStoriesUrl := fmt.Sprintf("https://hacker-news.firebaseio.com/v0/%sstories.json?print=pretty", arg)
 
 	resp, err := http.Get(topStoriesUrl)
 
@@ -54,7 +57,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	
+
 	var topStories []int64
 	err = json.Unmarshal(body, &topStories)
 	if err != nil {
