@@ -26,7 +26,7 @@ source ~/.zshrc
 When you run `hn` command now, it will open up Chrome with a random story from HackerNews
 
 ```
-> hn
+> hn show
   Tripping on Xenon Gas (2023)
   https://tripsitter.substack.com/p/xenon
 ```
